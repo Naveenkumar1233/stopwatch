@@ -29,7 +29,7 @@ const Stopwatch = () => {
 
   return (
     <div style={styles.container}>
-      <h1>Stopwatch</h1>
+      <h1>STOPWATCH</h1>
       <div style={styles.timeDisplay}>{formatTime()}</div>
       <div style={styles.buttons}>
         <button style={styles.startButton} onClick={() => setIsRunning(true)}>Start</button>
@@ -48,18 +48,19 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'center',
     height: '100vh',
-    backgroundImage: 'url(https://tse4.mm.bing.net/th?id=OIP.qnWeU_e1Mc7Dpluhj7GQ0wHaFo&pid=Api&P=0&h=180)', 
+    backgroundImage: 'url(../src/assets/3.jpg)', 
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     fontFamily: 'Arial, sans-serif',
-    color: 'white',
+    color: 'yellow',
   },
   timeDisplay: {
     fontSize: '3rem',
-    margin: '20px 0',
-    backgroundColor: 'rgba(0, 0, 0, 0.5)', 
+    margin: '30px 0',
+    // backgroundColor: 'rgba(0, 0, 0, 0.5)', 
     padding: '10px',
     borderRadius: '10px',
+    color:"white"
   },
   buttons: {
     display: 'flex',
@@ -84,7 +85,7 @@ const styles = {
     fontSize: '1rem',
   },
   resetButton: {
-    backgroundColor: '#008CBA', // Blue
+    backgroundColor: 'darkblue', // Blue
     color: 'white',
     padding: '10px 20px',
     border: 'none',
